@@ -4,8 +4,10 @@ from datetime import datetime,date
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 from jupyter_dash import JupyterDash
-import dash_html_components as html
-import dash_core_components as dcc
+#import dash_html_components as html
+from dash import html
+#import dash_core_components as dcc
+from dash import dcc
 from dash.dependencies import Input, Output
 
 
